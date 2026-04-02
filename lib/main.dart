@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Arthur gostosao',
+      title: 'Arthur gostosa',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
       home: const MyHomePage(title: 'Flutter pra git'),
       debugShowCheckedModeBanner: false,
@@ -28,7 +28,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -38,15 +37,9 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       backgroundColor: const Color.fromARGB(255, 20, 159, 214),
       body: Container(
-        
         child: Column(
           mainAxisAlignment: .center,
-          children: [
-            Text(
-              "Ola lucas",
-              
-              ),
-          ]
+          children: [Text("Ola lucas")],
         ),
       ),
     );
