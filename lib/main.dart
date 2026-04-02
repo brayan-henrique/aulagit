@@ -36,10 +36,16 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Center(
+      backgroundColor: const Color.fromARGB(255, 20, 159, 214),
+      body: Container(
+        
         child: Column(
           mainAxisAlignment: .center,
-          
+          children: [
+            Text(
+              "Ola lucas",
+              ),
+          ]
         ),
       ),
     );
